@@ -2,6 +2,6 @@
 
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    'Lukas_MyModuleContact',
+    'Lukas_MyModule',
     __DIR__
 );
