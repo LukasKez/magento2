@@ -48,9 +48,9 @@
             });
         </script>
     <?php endif ?>
-<!--    <script>-->
-<!--        window.checkout = --><?//= /* @noEscape */ $block->getSerializedConfig() ?><!--;-->
-<!--    </script>-->
+    <script>
+        window.checkout = <?= /* @noEscape */ $block->getSerializedConfig() ?>;
+    </script>
     <script type="text/x-magento-init">
     {
         "[data-block='minicart']": {
