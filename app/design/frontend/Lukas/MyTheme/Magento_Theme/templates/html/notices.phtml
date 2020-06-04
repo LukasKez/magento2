@@ -54,3 +54,5 @@ require(['jquery'], function(jQuery){
         </div>
     </div>
 <?php endif; ?>
+
+<?php echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('hello_world')->toHtml();?>
