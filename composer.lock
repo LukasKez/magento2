@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "45c0a7782875008c4dc9951c73ce457b",
+    "content-hash": "7ec4daec2047f16bc7bec97de740aae8",
     "packages": [
         {
             "name": "amzn/amazon-pay-and-login-magento-2-module",
@@ -1317,6 +1317,43 @@
             ],
             "description": "Fork of guzzle/RingPHP (abandoned) to be used with elasticsearch-php",
             "time": "2020-02-14T23:51:21+00:00"
+        },
+        {
+            "name": "flancer32/mage2_fix_is12655",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/flancer32/mage2_fix_is12655.git",
+                "reference": "b1f284f30248fbe646b2a346dcb2981a0f5dfae4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/flancer32/mage2_fix_is12655/zipball/b1f284f30248fbe646b2a346dcb2981a0f5dfae4",
+                "reference": "b1f284f30248fbe646b2a346dcb2981a0f5dfae4",
+                "shasum": ""
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Flancer32\\FixIs12655\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Alex Gusev",
+                    "email": "alex@flancer64.com"
+                }
+            ],
+            "description": "Fix for 500 error in Mage 2.2.2 (issue 12655).",
+            "homepage": "https://github.com/flancer32/mage2_fix_is12655",
+            "time": "2018-02-16T08:23:08+00:00"
         },
         {
             "name": "google/recaptcha",
